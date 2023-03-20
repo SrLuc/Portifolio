@@ -2,6 +2,8 @@
 import Apresentation from "./components/apresentation"
 import Me from "./components/me"
 import Skill from "./components/skills"
+import Cv from "./components/cv"
+import MyServices from "./components/myServices"
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
      <Apresentation/>
      <Me/>
      <Skill/>
+     <Cv/>
+     <MyServices/>
     </div>
   )
 }
