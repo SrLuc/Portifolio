@@ -1,10 +1,14 @@
 import styled from "styled-components";
+
+//wallpapers
 import wallpaper from "../../assets/img/wallpaper.svg";
+import wallpaper2 from '../../assets/img/wallpaper2.jpeg'
+import wallpaper3 from '../../assets/img/wallpaper3.jpeg'
 
 export const StyledApresentation = styled.div`
   width: 100%;
   height: 100vh;
-  background-image: url(${wallpaper});
+  background-image: url(${wallpaper2});
   background-size: cover;
   display: flex;
   flex-direction: column;

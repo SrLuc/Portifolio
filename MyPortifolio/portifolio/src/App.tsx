@@ -4,6 +4,7 @@ import Me from "./components/me"
 import Skill from "./components/skills"
 import Cv from "./components/cv"
 import MyServices from "./components/myServices"
+import More from "./components/more"
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
      <Me/>
      <Skill/>
      <Cv/>
-     <MyServices/>
+     <MyServices children/>
+     <More/>
     </div>
   )
 }
