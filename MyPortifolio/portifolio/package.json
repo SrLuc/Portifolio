@@ -18,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "reactstrap": "^9.1.6",
-    "styled-components": "^5.3.9"
+    "styled-components": "^5.3.9",
+    "surge": "^0.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

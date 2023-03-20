@@ -14,7 +14,7 @@ const MyServices = ({ children }: MyServicesProps) => {
   return (
     <S.StyledMyServices>
       <article>
-        <h1>My Services</h1>
+        <h1>My Skills</h1>
         <p className="hvr-grow">What Can i Do</p>
       </article>
 
