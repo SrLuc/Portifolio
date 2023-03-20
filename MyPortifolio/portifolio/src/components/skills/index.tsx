@@ -47,7 +47,7 @@ interface RangeProps {
 export const Range = ({ name, value, children }: RangeProps) => {
   return (
     <S.StyledRange>
-      <section>
+      <section className="hvr-float">
         <p>{name}</p>
         <p>{value}%</p>
       </section>

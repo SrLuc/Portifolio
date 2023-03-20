@@ -15,7 +15,7 @@ const MyServices = ({ children }: MyServicesProps) => {
     <S.StyledMyServices>
       <article>
         <h1>My Services</h1>
-        <p>What Can i Do</p>
+        <p className="hvr-grow">What Can i Do</p>
       </article>
 
       <section>
@@ -65,7 +65,7 @@ interface ServiceBoxProps {
 }
 
 export const ServiceBox = ({ children }: ServiceBoxProps) => {
-  return <S.StyledServiceBox>{children}</S.StyledServiceBox>;
+  return <S.StyledServiceBox className="hvr-fade">{children}</S.StyledServiceBox>;
 };
 
 export default MyServices;

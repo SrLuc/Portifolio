@@ -10,7 +10,7 @@ const Apresentation = ({}: ApresentationProps) => {
       <header>
         <img src={me1} alt="" />
       </header>
-      <article>
+      <article className="hvr-bob">
         <p>Hello</p>
         <p>I'm Ruan Ramos</p>
         <p>
